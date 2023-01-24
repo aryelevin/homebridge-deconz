@@ -4,7 +4,7 @@
   "displayName": "Homebridge deCONZ",
   "author": "Erik Baauw",
   "license": "Apache-2.0",
-  "version": "0.0.14",
+  "version": "0.1.2",
   "keywords": [
     "homebridge-plugin",
     "homekit",
@@ -20,14 +20,13 @@
     "deconz": "cli/deconz.js"
   },
   "engines": {
-    "deCONZ": "2.14.1",
-    "homebridge": "^1.4.0",
-    "node": "^16.14.0"
+    "deCONZ": "2.19.3",
+    "homebridge": "^1.6.0",
+    "node": "^18.13.0"
   },
   "dependencies": {
-    "homebridge-lib": "~5.3.0",
-    "semver": "^7.3.5",
-    "ws": "^8.5.0",
+    "homebridge-lib": "~6.3.4",
+    "ws": "^8.12.0",
     "xml2js": "~0.4.23"
   },
   "scripts": {
@@ -42,8 +41,14 @@
     "url": "https://github.com/ebaauw/homebridge-deconz/issues"
   },
   "homepage": "https://github.com/ebaauw/homebridge-deconz#readme",
-  "funding": {
-    "type": "paypal",
-    "url": "https://www.paypal.me/ebaauw/EUR"
-  }
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ebaauw"
+    },
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/ebaauw/EUR"
+    }
+  ]
 }
