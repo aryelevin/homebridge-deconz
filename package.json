@@ -4,7 +4,7 @@
   "displayName": "Homebridge deCONZ",
   "author": "Erik Baauw",
   "license": "Apache-2.0",
-  "version": "0.1.2",
+  "version": "0.1.3-0",
   "keywords": [
     "homebridge-plugin",
     "homekit",
@@ -17,7 +17,8 @@
   ],
   "main": "index.js",
   "bin": {
-    "deconz": "cli/deconz.js"
+    "deconz": "cli/deconz.js",
+    "ui": "cli/ui.sh"
   },
   "engines": {
     "deCONZ": "2.19.3",
