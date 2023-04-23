@@ -12,7 +12,8 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "/usr/local/lib/node_modules/homebridge/bin/homebridge"
+            "program": "/usr/local/lib/node_modules/homebridge/bin/homebridge",
+            "args": ["-I"]
         }
     ]
 }
