@@ -4,7 +4,7 @@
   "displayName": "Homebridge deCONZ",
   "author": "Erik Baauw",
   "license": "Apache-2.0",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "keywords": [
     "homebridge-plugin",
     "homekit",
@@ -26,7 +26,7 @@
     "node": "^18.16.0"
   },
   "dependencies": {
-    "homebridge-lib": "~6.3.16",
+    "homebridge-lib": "~6.3.17",
     "ws": "^8.13.0",
     "xml2js": "~0.5.0"
   },
