@@ -4,7 +4,7 @@
   "displayName": "Homebridge deCONZ",
   "author": "Erik Baauw",
   "license": "Apache-2.0",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "keywords": [
     "homebridge-plugin",
     "homekit",
@@ -22,13 +22,13 @@
     "ui": "cli/ui.js"
   },
   "engines": {
-    "deCONZ": "2.23.2",
+    "deCONZ": "2.24.2",
     "homebridge": "^1.7.0",
-    "node": "20.9.0||^20||^18"
+    "node": "20.10.0||^20||^18"
   },
   "dependencies": {
-    "hb-deconz-tools": "~1.0.11",
-    "homebridge-lib": "~6.7.0"
+    "hb-deconz-tools": "~1.0.12",
+    "homebridge-lib": "~6.7.1"
   },
   "scripts": {
     "prepare": "standard && rm -rf out && jsdoc -c jsdoc.json",
