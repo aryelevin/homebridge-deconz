@@ -31,7 +31,7 @@
     "homebridge-lib": "~6.7.5"
   },
   "scripts": {
-    "prepare": "standard && rm -rf out && jsdoc -c jsdoc.json",
+    "prepare_old": "standard && rm -rf out && jsdoc -c jsdoc.json",
     "test": "standard && echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
