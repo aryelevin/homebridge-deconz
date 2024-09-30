@@ -3,8 +3,11 @@
   "description": "Homebridge plugin for deCONZ",
   "displayName": "Homebridge deCONZ",
   "author": "Erik Baauw",
+  "maintainers": [
+    "ebaauw"
+  ],
   "license": "Apache-2.0",
-  "version": "1.0.12",
+  "version": "1.0.18",
   "keywords": [
     "homebridge-plugin",
     "homekit",
@@ -15,6 +18,7 @@
     "dresden-elektronik",
     "dresdenelektronik"
   ],
+  "type": "module",
   "main": "index.js",
   "bin": {
     "deconz": "cli/deconz.js",
@@ -22,13 +26,13 @@
     "ui": "cli/ui.js"
   },
   "engines": {
-    "deCONZ": "2.26.3",
-    "homebridge": "^1.7.0",
+    "deCONZ": "2.28.1",
+    "homebridge": "^1.8.4||^2.0.0-beta",
     "node": "^20||^18"
   },
   "dependencies": {
-    "hb-deconz-tools": "~1.0.15",
-    "homebridge-lib": "~6.7.5"
+    "hb-deconz-tools": "~2.0.3",
+    "homebridge-lib": "~7.0.8"
   },
   "scripts": {
     "prepare_old": "standard && rm -rf out && jsdoc -c jsdoc.json",
