@@ -7,7 +7,7 @@
     "ebaauw"
   ],
   "license": "Apache-2.0",
-  "version": "1.0.26",
+  "version": "1.1.2",
   "keywords": [
     "homebridge-plugin",
     "homekit",
@@ -26,13 +26,13 @@
     "ui": "cli/ui.js"
   },
   "engines": {
-    "deCONZ": "2.28.1",
+    "deCONZ": "2.29.5",
     "homebridge": "^1.9.0||^2.0.0-beta",
     "node": "^22||^20||^18"
   },
   "dependencies": {
-    "hb-deconz-tools": "~2.0.8",
-    "homebridge-lib": "~7.1.4"
+    "hb-deconz-tools": "~2.0.10",
+    "homebridge-lib": "~7.1.5"
   },
   "scripts": {
     "prepare_old": "standard && rm -rf out && jsdoc -c jsdoc.json",
