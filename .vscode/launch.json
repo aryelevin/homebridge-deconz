@@ -14,6 +14,7 @@
             ],
             "program": "/usr/local/lib/node_modules/homebridge/bin/homebridge",
             "args": ["-I"]
+            // "args": ["-I", "-P \"/Users/aryelevin/Documents/development/Projects/Homebridge/homebridge-deconz/\""]
             // "args": ["-I", "-U \"/var/lib/homebridge\""]
         }
     ]
